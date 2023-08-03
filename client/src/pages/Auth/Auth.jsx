@@ -53,7 +53,9 @@ const Auth = () => {
       {/* left side */}
 
       <div className="a-left">
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="" style={
+          {filter: "invert(100%) sepia(0%) saturate(2100%) hue-rotate(210deg) brightness(150%) contrast(90%)"}
+        }/>
 
         <div className="Webname">
           <h1>Anti-Socials</h1>

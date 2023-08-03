@@ -27,7 +27,8 @@
 
 .Webname > h1 {
     font-size: 3rem;
-    background-color: red;
+    /* background-color: red; */
+    background-color: #1877F2;
   
     /* Create the gradient. */
     background-image: var(--buttonBg);

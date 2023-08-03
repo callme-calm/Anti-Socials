@@ -27,10 +27,11 @@ const Post = ({ data }) => {
 
       <div className="postReact">
         <img
-          src={liked ? Heart : NotLike}
+          src={liked ? (Heart ): NotLike}
           alt=""
-          style={{ cursor: "pointer" }}
+          style={{ cursor: "pointer", filter: liked ? "hue-rotate(205deg)" : "none" }}
           onClick={handleLike}
+
         />
         <img src={Comment} alt="" />
         <img src={Share} alt="" />
